@@ -17,7 +17,6 @@ public class AndrewWebServicesTest {
 
     @Before
     public void setUp() {
-        // // You need to use some mock objects here
         stubRecommender = new StubRecommender();
         fakeDatabase = new InMemoryDatabase();
         mockPromoService = mock(PromoService.class);
